@@ -1,0 +1,122 @@
+# CrackLab - Relatório Técnico
+
+**Simulador educacional de ataques de força bruta desenvolvido em C**
+
+---
+
+## 1. Sobre o projeto
+
+O CrackLab é um projeto independente de programação e cibersegurança desenvolvido em linguagem C, com o objetivo de demonstrar o funcionamento de ataques de força bruta (*Brute Force*) em um ambiente local e controlado.
+
+O projeto apresenta uma simulação na qual dois papéis são utilizados: Vítima e Invasor. A Vítima configura uma senha, enquanto o Invasor executa tentativas para tentar descobri-la.
+
+O objetivo é demonstrar como diferentes características de uma senha podem influenciar a dificuldade de descoberta durante um ataque automatizado.
+
+## 2. Objetivos
+
+O projeto procura demonstrar:
+
+- O funcionamento conceitual de ataques de força bruta.
+- A relação entre o tamanho da senha e a quantidade de combinações possíveis.
+- A influência dos diferentes conjuntos de caracteres na complexidade de uma senha.
+- A importância da criação de senhas fortes.
+- A lógica de programação e a manipulação de dados utilizando C.
+- A aplicação de conceitos de cibersegurança em um ambiente de simulação.
+
+## 3. Funcionamento
+
+O CrackLab utiliza dois modos principais:
+
+**3.1. Modo Vítima**
+
+A Vítima cria ou configura uma senha que será utilizada durante a simulação.
+
+O objetivo é proteger a senha contra as tentativas realizadas pelo modo Invasor.
+
+**3.2. Modo Invasor**
+
+O Invasor executa tentativas automatizadas para tentar descobrir a senha configurada pela Vítima.
+
+O resultado depende das características da senha e dos limites definidos para a simulação.
+
+## 4. Fundamentos técnicos
+
+O projeto utiliza conceitos relacionados ao funcionamento de ataques de força bruta.
+
+A quantidade de combinações possíveis depende do número de caracteres disponíveis e do comprimento da senha.
+
+A fórmula utilizada para representar o espaço de possibilidades é:
+
+**N = C^L**
+
+Onde:
+
+- N = quantidade total de combinações.
+- C = quantidade de caracteres disponíveis.
+- L = comprimento da senha.
+
+O tempo teórico de busca pode ser representado por:
+
+**T = N / R**
+
+Onde:
+
+- T = tempo estimado de busca.
+- N = quantidade de combinações.
+- R = quantidade de tentativas por segundo.
+
+Essa fórmula representa uma busca exaustiva. O tempo real depende da implementação, do desempenho do equipamento e da estratégia de tentativa.
+
+## 5. Estrutura do projeto
+
+O CrackLab foi planejado com uma organização modular para separar as responsabilidades do programa.
+
+- `menu.c`: gerenciamento do menu e fluxo principal.
+- `perfil.c`: gerenciamento das informações do perfil e da senha.
+- `perfil.h`: declarações relacionadas ao módulo de perfil.
+- `bruteforce.c`: implementação da lógica de tentativas.
+- `bruteforce.h`: declarações relacionadas ao módulo de força bruta.
+
+A separação dos arquivos facilita a manutenção, a leitura e a evolução do código.
+
+## 6. Tecnologias utilizadas
+
+- Linguagem C.
+- CLion.
+- CMake.
+- Bibliotecas padrão e recursos de sistema compatíveis com a implementação.
+
+## 7. Desenvolvimento
+
+O desenvolvimento do CrackLab envolve a construção de uma aplicação interativa, a implementação da lógica de geração e verificação de senhas e a integração dos módulos responsáveis pela simulação.
+
+Durante esse processo, são estudados conceitos de programação estruturada, funções, bibliotecas, arquivos de cabeçalho, estruturas de controle e organização modular.
+
+## 8. Segurança e limitações
+
+O CrackLab foi concebido para fins educacionais e deve ser executado em ambiente local e controlado.
+
+O projeto não tem como finalidade realizar ataques contra contas, serviços, redes ou sistemas de terceiros.
+
+Os resultados apresentados pela simulação não devem ser interpretados como uma medição universal do desempenho de ferramentas reais de quebra de senhas.
+
+## 9. Possíveis atualizações
+
+O projeto poderá receber melhorias conforme o avanço dos estudos e da implementação, incluindo:
+
+- Novos métodos de geração de senhas.
+- Diferentes conjuntos de caracteres.
+- Melhorias na apresentação dos resultados.
+- Novos níveis de dificuldade.
+- Aprimoramentos na simulação de tentativas.
+- Melhor organização e documentação do código.
+
+## 10. Conclusão
+
+O CrackLab representa uma aplicação prática de conceitos de programação em C e fundamentos de cibersegurança.
+
+Além de demonstrar o funcionamento conceitual de ataques de força bruta, o projeto busca destacar a importância de senhas fortes e proporcionar uma experiência de aprendizado sobre lógica de programação, segurança digital e desenvolvimento de ferramentas educacionais.
+
+---
+
+**Projeto independente desenvolvido para fins educacionais.**
