@@ -1,0 +1,87 @@
+# CrackLab - Relatório de Colaboração com Inteligência Artificial
+
+**Documentação do processo de desenvolvimento com auxílio do Claude**
+
+---
+
+## 1. Sobre a colaboração
+
+Durante o desenvolvimento do CrackLab, foi utilizado o Claude como ferramenta de apoio à programação e à resolução de problemas.
+
+A inteligência artificial participou principalmente da construção inicial do código, da análise de possíveis implementações e do aperfeiçoamento de partes da estrutura do projeto.
+
+A utilização da ferramenta teve como objetivo auxiliar o desenvolvimento sem substituir o aprendizado e a participação do desenvolvedor.
+
+## 2. Desenvolvimento inicial
+
+O processo começou com a definição da proposta do CrackLab, incluindo seus objetivos, funcionamento e organização.
+
+A partir dessas definições, foi solicitado auxílio para elaborar uma primeira estrutura de código em C.
+
+Essa etapa serviu como ponto de partida para a implementação dos módulos e das funcionalidades previstas.
+
+## 3. Tentativas e aperfeiçoamentos
+
+Durante o desenvolvimento, foram realizadas diferentes tentativas de implementação.
+
+As primeiras versões serviram para identificar problemas de organização, lógica e funcionamento.
+
+Com o auxílio do Claude, foram analisadas alternativas, realizadas correções e desenvolvidas novas versões do código.
+
+O processo envolveu:
+
+- Análise das primeiras implementações.
+- Identificação de problemas e inconsistências.
+- Revisão da lógica de programação.
+- Ajustes na estrutura dos arquivos.
+- Aperfeiçoamento do código-base.
+- Revisão das funcionalidades propostas.
+
+Nem todas as sugestões ou soluções geradas pela IA foram necessariamente utilizadas.
+
+## 4. Participação do desenvolvedor
+
+A participação do desenvolvedor foi fundamental durante todo o processo.
+
+As respostas geradas pela inteligência artificial foram utilizadas como material de apoio, sendo necessário analisar, testar e compreender as implementações antes de incorporá-las ao projeto.
+
+O objetivo não foi apenas obter um código funcional, mas também estudar sua estrutura e compreender os conceitos utilizados.
+
+## 5. Revisão e aprendizado
+
+O processo de colaboração também foi utilizado como oportunidade de aprendizado em linguagem C.
+
+Entre os assuntos estudados estão:
+
+- Organização modular.
+- Funções e parâmetros.
+- Arquivos `.c` e `.h`.
+- Bibliotecas.
+- Estruturas condicionais e de repetição.
+- Manipulação de dados.
+- Lógica de programação.
+- Depuração e identificação de erros.
+
+A revisão do código é uma etapa importante para evitar a utilização de implementações que não sejam compreendidas pelo desenvolvedor.
+
+## 6. Transparência no uso de IA
+
+O uso de inteligência artificial foi registrado como parte do processo de desenvolvimento do CrackLab.
+
+O Claude foi utilizado como ferramenta auxiliar, mas a responsabilidade pelas decisões, pela revisão e pela evolução do projeto permaneceu com o desenvolvedor.
+
+A utilização de IA não elimina a necessidade de conhecimento técnico, testes e compreensão do código.
+
+## 7. Conclusão
+
+A colaboração com o Claude contribuiu para acelerar a construção inicial do CrackLab e explorar diferentes possibilidades de implementação.
+
+Entretanto, o principal objetivo dessa colaboração foi utilizar a inteligência artificial como ferramenta de apoio ao aprendizado, permitindo estudar a linguagem C e compreender melhor os fundamentos envolvidos no desenvolvimento de ferramentas de cibersegurança.
+
+O CrackLab representa, portanto, não apenas um exercício de programação, mas também uma experiência de desenvolvimento assistido por inteligência artificial, com participação e revisão humana.
+
+---
+
+**Ferramenta de IA utilizada: Claude.**
+
+**O código e as decisões finais devem ser revisados e compreendidos pelo desenvolvedor.**
