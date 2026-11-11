@@ -1,0 +1,122 @@
+# CrackLab - Technical Report
+
+**An educational brute-force attack simulator developed in C**
+
+---
+
+## 1. About the project
+
+CrackLab is an independent programming and cybersecurity project developed in C. Its purpose is to demonstrate how brute-force attacks work within a controlled local environment.
+
+The project features a simulation involving two roles: Victim and Attacker. The Victim configures a password, whilst the Attacker performs attempts to discover it.
+
+The objective is to demonstrate how different password characteristics can influence the difficulty of discovering a password during an automated attack.
+
+## 2. Objectives
+
+The project aims to demonstrate:
+
+- The conceptual operation of brute-force attacks.
+- The relationship between password length and the number of possible combinations.
+- The influence of different character sets on password complexity.
+- The importance of creating strong passwords.
+- Programming logic and data manipulation using C.
+- The application of cybersecurity concepts within a simulated environment.
+
+## 3. How it works
+
+CrackLab features two main modes:
+
+**3.1. Victim Mode**
+
+The Victim creates or configures a password to be used during the simulation.
+
+The objective is to protect the password against attempts performed by the Attacker mode.
+
+**3.2. Attacker Mode**
+
+The Attacker performs automated attempts to discover the password configured by the Victim.
+
+The outcome depends on the password's characteristics and the limits defined for the simulation.
+
+## 4. Technical foundations
+
+The project uses concepts related to the operation of brute-force attacks.
+
+The number of possible combinations depends on the available character set and the password length.
+
+The formula used to represent the search space is:
+
+**N = C^L**
+
+Where:
+
+- N = total number of possible combinations.
+- C = number of available characters.
+- L = password length.
+
+The theoretical search time can be represented as:
+
+**T = N / R**
+
+Where:
+
+- T = estimated search time.
+- N = number of possible combinations.
+- R = number of attempts per second.
+
+This formula represents an exhaustive search. Actual search time depends on the implementation, hardware performance and attempt strategy.
+
+## 5. Project structure
+
+CrackLab was designed with a modular structure to separate the responsibilities of the program.
+
+- `menu.c`: menu management and main program flow.
+- `perfil.c`: profile and password management.
+- `perfil.h`: declarations related to the profile module.
+- `bruteforce.c`: implementation of the brute-force attempt logic.
+- `bruteforce.h`: declarations related to the brute-force module.
+
+Separating the files makes the code easier to maintain, read and expand.
+
+## 6. Technologies used
+
+- C programming language.
+- CLion.
+- CMake.
+- Standard libraries and system resources compatible with the implementation.
+
+## 7. Development
+
+CrackLab's development involves building an interactive application, implementing password generation and verification logic, and integrating the modules responsible for the simulation.
+
+Throughout this process, the project explores structured programming, functions, libraries, header files, control structures and modular code organisation.
+
+## 8. Security and limitations
+
+CrackLab was designed for educational purposes and should be executed within a controlled local environment.
+
+The project is not intended to attack third-party accounts, services, networks or systems.
+
+The results presented by the simulation should not be interpreted as a universal measurement of the performance of real-world password-cracking tools.
+
+## 9. Potential updates
+
+The project may receive improvements as development and learning progress, including:
+
+- Additional password generation methods.
+- Different character sets.
+- Improvements to result presentation.
+- New difficulty levels.
+- Enhancements to the attempt simulation.
+- Better code organisation and documentation.
+
+## 10. Conclusion
+
+CrackLab represents a practical application of C programming concepts and cybersecurity fundamentals.
+
+In addition to demonstrating the conceptual operation of brute-force attacks, the project aims to highlight the importance of strong passwords and provide a learning experience involving programming logic, digital security and the development of educational tools.
+
+---
+
+**Independent project developed for educational purposes.**
