@@ -176,15 +176,13 @@ CrackLab/
 │   ├── term_vitoria.png
 │   └── hydra_logo.png
 │
-├── CMakeLists.txt
-│
-├── menu.c
-│
-├── perfil.c
-├── perfil.h
-│
-├── bruteforce.c
-├── bruteforce.h
+├── Projects
+│   ├── CMakeLists.c
+|   ├── menu.c 
+│   ├── perfil.c
+|   ├── perfil.h
+|   ├── bruteforce.c
+|   └── bruteforce.h
 │
 ├── README.md
 │
@@ -540,17 +538,13 @@ CrackLab/
 │   ├── term_vitoria.png
 │   └── hydra_logo.png
 │
-├── CMakeLists.txt
-│
-├── menu.c
-│
-├── perfil.c
-├── perfil.h
-│
-├── bruteforce.c
-├── bruteforce.h
-│
-├── README.md
+├── Projects
+│   ├── CMakeLists.c
+|   ├── menu.c 
+│   ├── perfil.c
+|   ├── perfil.h
+|   ├── bruteforce.c
+|   └── bruteforce.h
 │
 └── Documentation/
 ```
